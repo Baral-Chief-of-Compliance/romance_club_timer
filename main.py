@@ -31,7 +31,7 @@ async def send_keyboard(message: Message):
 async def send_inf(message: Message):
     user_info = message.peer_id
     now = datetime.datetime.now().strftime('%H:%M')
-    time_to_get_diamonds = (datetime.datetime.now() + datetime.timedelta(hours=1, minutes=30)).strftime('%H:%M')
+    time_to_get_diamonds = (datetime.datetime.now() + datetime.timedelta(minutes=45)).strftime('%H:%M')
     print(f'\n\n{user_info}')
     print(f'\n\n{now}')
     print(f'\n\n{time_to_get_diamonds}')
